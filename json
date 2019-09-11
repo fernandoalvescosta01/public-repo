@@ -1,0 +1,67 @@
+{
+"eventSource" : { "objectName": "SYSTEM.ADMIN.COMMAND.EVENT",
+                    "objectType" : "Queue" },
+"eventType" : {
+    "name" : "Command Event",
+    "value" : 99
+  },
+"eventReason" : {
+    "name" : "Command PCF",
+    "value" : 2413
+  },
+"eventCreation" : {
+    "timeStamp"  : "2019-09-11T15:49:03Z",
+    "epoch"      : 1568216943
+  },
+"correlationID" : "414D5120584D51503120202020202020F502795D69711E23",
+"eventData" : {
+"commandContext" : {
+  "eventUserId" : "P717932",
+  "eventOrigin" : "Msg",
+  "eventQueueMgr" : "XMQP1",
+  "eventAccountingToken" : "0000000000000000000000000000000000000000000000000000000000000000",
+  "eventApplIdentity" : "P717932",
+  "eventApplType" : "Java",
+  "eventApplName" : "com.ibm.mq.mqrest",
+  "eventApplOrigin" : "REST",
+  "command" : "Change Queue Mgr"
+},
+"commandData" : {
+  "queueMgrDesc" : ""
+}
+}
+}
+
+{
+"eventSource" : { "objectName": "SYSTEM.ADMIN.COMMAND.EVENT",
+                    "objectType" : "Queue" },
+"eventType" : {
+    "name" : "Command Event",
+    "value" : 99
+  },
+"eventReason" : {
+    "name" : "Command PCF",
+    "value" : 2413
+  },
+"eventCreation" : {
+    "timeStamp"  : "2019-09-11T15:48:56Z",
+    "epoch"      : 1568216936
+  },
+"correlationID" : "414D5120584D51503120202020202020F502795D64711E23",
+"eventData" : {
+"commandContext" : {
+  "eventUserId" : "P717932",
+  "eventOrigin" : "Msg",
+  "eventQueueMgr" : "XMQP1",
+  "eventAccountingToken" : 0000000000000000000000000000000000000000000000000000000000000000,
+  "eventApplIdentity" : "P717932",
+  "eventApplType" : "Java",
+  "eventApplName" : "com.ibm.mq.mqrest",
+  "eventApplOrigin" : "REST",
+  "command" : "Change Queue Mgr"
+},
+"commandData" : {
+  "queueMgrDesc" : "444"
+}
+}
+}
